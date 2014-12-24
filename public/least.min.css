@@ -269,9 +269,14 @@ section {
   font-family: 'Quicksand', sans-serif;
   padding-bottom: 10px;
   text-align: left;
+  margin-left: 0;
 }
 
 .job {
   font-family: 'Quicksand', sans-serif;
   text-align: left;
+}
+
+.col-lg-9 {
+  display: block;
 }
