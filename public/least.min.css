@@ -253,8 +253,6 @@ section {
 
 .typeOfSkill {
   font-family: 'Quicksand', sans-serif;
-/*  margin-bottom: 15px;
-  margin-top: 15px;*/
   padding: 5px;
   text-align: center;
 }
@@ -263,6 +261,7 @@ section {
   font-family: 'Quicksand', sans-serif;
   padding-bottom: 10px;
   text-align: center;
+  line-height: 1.2;
 }
 
 .skills2 {
@@ -270,6 +269,7 @@ section {
   padding-bottom: 10px;
   text-align: left;
   margin-left: 0;
+  line-height: 1.2;
 }
 
 .job {
@@ -277,6 +277,13 @@ section {
   text-align: left;
 }
 
-.col-lg-9 {
-  display: block;
+.icon {
+  margin: 0 auto;
+  height: 65px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.lefty {
+  float: left;
 }
