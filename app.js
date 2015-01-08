@@ -3,7 +3,7 @@ var express = require("express"),
   ejs = require("ejs"),
   morgan = require("morgan"),
   bodyParser = require("body-parser"),
-  methodOverride = require("method-override"),
+  methodOverride = require("method-override");
 
 app.set('view engine', 'ejs');
 app.use(express.static(__dirname + '/public'));

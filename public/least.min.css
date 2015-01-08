@@ -1,16 +1,4 @@
 @import url(http://fonts.googleapis.com/css?family=Arvo);
-/**
-*** least.
-*** Author: Kamil Czujowski, Sergej Müller
-*** Version: 1.5
-*** Made with ♥ - Copyright (c) 2013 Hamburg, Germany - All rights reserved.
-*** https://twitter.com/kamilczujowski, http://wpcoder.de
-**/
-/* @group Mixins */
-/* @end */
-/* @group Colors */
-/* @end */
-/* @group Default */
 
 .container-fluid {
   padding-right: 0px;
@@ -29,7 +17,6 @@
   background-position: bottom;
 }
 
-/*#74A6CC, 2C2F6D, 3A7099*/
 .my_photo {
   background: url("sites/portfolio_photo.png") no-repeat;
   background-size:contain;
@@ -47,8 +34,6 @@
 .header {
   font-family: 'Quicksand', sans-serif;
   text-shadow: 1px 1px 1px #000;
-/*  margin-bottom: 25px;
-  margin-top: 25px;*/
   padding: 30px;
   text-align: center;
   background-image: url("art/lake.JPG");
@@ -56,7 +41,6 @@
   background-attachment: fixed;
   background-position: bottom;
   width: 100%
-}
 }
 
 * {
@@ -67,7 +51,8 @@
 }
 
 ul {
-  list-style: none; }
+  list-style: none;
+}
 
 h1 {
   font-family: 'Quicksand', sans-serif;
@@ -80,17 +65,17 @@ h2 {
   font-weight: 500;
   text-transform: uppercase;
   color: white;
-  letter-spacing: 1px; }
+  letter-spacing: 1px;
+}
 
 p {
   font-family: Georgia, Arial, sans-serif;
   font-size: 15px;
   line-height: 15px;
   font-weight: 100;
-  color: white; }
+  color: white;
+}
 
-/* @end */
-/* @group Gallery */
 section {
   min-width: 100%;
   width: 100%;
@@ -98,41 +83,40 @@ section {
   text-align: center;
   padding: 35px 0;
   margin-bottom: 30px;
-  /*margin-top: 15px;*/
   box-shadow: 0 0 5px;
   border-top: 4px solid #FF9100;
   border-bottom: 4px solid #FF9100;
   }
   section.section0 {
     background-color: #131E33;
-    /*opacity: 0.9;*/
-
     margin-bottom: 60px;
   }
+
   section.section1 {
     background-color: #132737;
-    /*opacity: 0.9;*/
   }
+
   section.section2 {
     background-color: #173044;
-    /*opacity: 0.9;*/
     margin-bottom: 60px;
   }
+
   section.section3 {
     background-color: #1D3C54;
     margin-bottom: 60px;
   }
+
   section.section4 {
     background-color: #2B597D;
     height: 100%;
   }
+
   section.section5 {
     background-color: #336994;
   }
+
   section #fullPreview {
     background-color: #132737;
-/*    border-top: 2px solid #333333;
-    border-bottom: 2px solid #333333;*/
     padding: 50px 0 30px 0;
     display: none; }
     section #fullPreview img,
@@ -161,10 +145,7 @@ section {
     display: inline-block;
     vertical-align: top;
     position: relative;
-    /* @group Over */
-    /* @group Description */
-    /* @end *
-    /* @end */ }
+    }
     section li:hover .overLayer {
       -webkit-transition: opacity 0.3s linear;
       -moz-transition: opacity 0.3s linear;
@@ -291,12 +272,8 @@ section {
 .url_link {
   text-align: center;
   display: initial;
-  /*top: 15px;*/
   margin: 0 auto;
   position: relative;
   height: 0px;
   width: 200px;
-  /*top: 10px;*/
-  /*left: 0;*/
-  /*z-index: 6;*/
 }
