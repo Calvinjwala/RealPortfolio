@@ -1,6 +1,8 @@
 var express = require("express"),
   app = express();
-  ejs = require("ejs");
+  ejs = require("ejs"),
+  bodyParser = require("body-parser"),
+  methodOverride = require("method-override"),
 
 app.set('view engine', 'ejs');
 app.use(express.static(__dirname + '/public'));

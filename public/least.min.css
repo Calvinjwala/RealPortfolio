@@ -31,14 +31,14 @@
 
 /*#74A6CC, 2C2F6D, 3A7099*/
 .my_photo {
+  background: url("sites/portfolio_photo.png") no-repeat;
+  background-size:contain;
   width: 125px;
   height: 125px;
-  border-radius: 150px;
-  -webkit-border-radius: 150px;
-  -moz-border-radius: 150px;
-  background: url("sites/me.jpg") no-repeat;
-  background-size:contain;
-  background-position: center;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  background-position: 50%;
   box-shadow: 0 0 8px rgba(0, 0, 0, .8);
   -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
   -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
@@ -286,4 +286,17 @@ section {
 
 .lefty {
   float: left;
+}
+
+.url_link {
+  text-align: center;
+  display: initial;
+  /*top: 15px;*/
+  margin: 0 auto;
+  position: relative;
+  height: 0px;
+  width: 200px;
+  /*top: 10px;*/
+  /*left: 0;*/
+  /*z-index: 6;*/
 }
