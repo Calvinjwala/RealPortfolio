@@ -18,7 +18,7 @@
 }
 
 .my_photo {
-  background: url("sites/portfolio_photo.png") no-repeat;
+  background: url("/sites/portfolio_photo.png") no-repeat;
   background-size:contain;
   width: 125px;
   height: 125px;
