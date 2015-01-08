@@ -11,14 +11,12 @@
 
 .bgI {
   height: 100%;
-  background-image: url("art/sunset.jpg");
   background-size:cover;
   background-attachment: fixed;
   background-position: bottom;
 }
 
 .my_photo {
-  background: url("/sites/portfolio_photo.png") no-repeat;
   background-size:contain;
   width: 125px;
   height: 125px;
@@ -36,7 +34,6 @@
   text-shadow: 1px 1px 1px #000;
   padding: 30px;
   text-align: center;
-  background-image: url("art/lake.JPG");
   background-size:cover;
   background-attachment: fixed;
   background-position: bottom;
