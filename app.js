@@ -1,6 +1,7 @@
 var express = require("express"),
   app = express();
   ejs = require("ejs"),
+  morgan = require("morgan"),
   bodyParser = require("body-parser"),
   methodOverride = require("method-override"),
 
